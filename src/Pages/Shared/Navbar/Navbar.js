@@ -48,8 +48,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link className="flex items-center normal-case lg:text-4xl pl-3 text-white text-3xl font-change  ">
-          <img src={logo} className="w-14 h-12 mr-2 " alt="" />
+        <Link className="lg:flex md:flex   items-center normal-case lg:text-4xl pl-3 text-white text-2xl font-change  ">
+          <img src={logo} className="w-14 h-12 mr-2 lg:block md:block hidden " alt="" />
           <span className="text-sky-300 lg:text-5xl text-3xl ">R</span>
           amisaBinteAzad
         </Link>
@@ -57,22 +57,24 @@ const Navbar = () => {
       <div className="navbar-center   hidden lg:flex   text-white">
         <ul className="menu menu-horizontal px-2 ">
           <li className="">
-            <Link to='/' className="">Home</Link>
+            <Link to="/" className="">
+              Home
+            </Link>
           </li>
           <li tabIndex={0}>
-            <Link to=''>About</Link>
+            <Link to="">About</Link>
           </li>
           <li>
             <Link>Skills</Link>
           </li>
           <li>
-            <a href='#projects'>Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <Link>Education</Link>
           </li>
           <li>
-            <Link className="lg:mr-2">Contact Me</Link>
+            <a href="#contact">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -80,7 +82,7 @@ const Navbar = () => {
         <a
           href="./resume.pdf"
           download="resume.pdf"
-          className="btn btn-primary  text-white"
+          className="btn btn-primary text-lg text-white"
         >
           Resume
           <FaDownload className="ml-2"></FaDownload>

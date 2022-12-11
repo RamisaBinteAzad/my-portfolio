@@ -76,7 +76,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="hero  w-full mt-4">
-              <div className="hero-content flex-col lg:flex-row">
+              <div className="hero-content flex-col-reverse lg:flex-row">
                 <div className="lg:w-1/2 w-full h-full lg:px-4">
                   <h2
                     tabIndex="0"
@@ -150,7 +150,7 @@ const Projects = () => {
                   </small>
                   <p className="mt-8 tracking-normal text-lg">
                     This is a responsive website where learners can practice
-                    quiz of different categories about Web Development.can
+                    quiz of different categories about Web Development.Learners can
                     easily judge his ability and can understand whether his
                     answer is right or wrong and get the correct answer.For Quiz
                     Analytics there is a graph in the statistics section
