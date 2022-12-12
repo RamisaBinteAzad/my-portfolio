@@ -5,7 +5,7 @@ import { FaDownload} from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="navbar py-4 glass text-lg">
+    <div className="navbar py-4 glass text-lg sticky top-0 z-50">
       <div className="navbar-start lg:mr-20 ">
         <div className="dropdown ">
           <label tabIndex={0} className="btn btn-ghost  lg:hidden">
@@ -77,7 +77,7 @@ const Navbar = () => {
             <Link>Education</Link>
           </li>
           <li>
-            <Link to='/blogs'>Blogs</Link>
+            <Link to="/blogs">Blogs</Link>
           </li>
           <li>
             <a href="#contact">Contact Me</a>
