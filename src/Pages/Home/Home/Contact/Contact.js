@@ -4,6 +4,7 @@ import {
   FaEnvelope,
   FaGithub,
   FaLock,
+  FaPaperPlane,
   FaPhoneAlt,
   FaUser,
 } from "react-icons/fa";
@@ -39,20 +40,21 @@ const Contact = () => {
            );
        };
   return (
-    <section id="contact  ">
+    <section id="contact">
       <div className="container mx-auto px-4 ">
         <div className="flex flex-column justify-center items-center">
           <p className="text-primary text-6xl mb-0 mt-14 font-semibold ">
             CONTACT <span className="text-gray-400 ml-3">ME</span>
+            <hr className="w-3/4 border-4 border-primary" />
           </p>
         </div>
         <div className="flex justify-center items-center ">
-          <p className="text-center text-xl w-[420px]">
+          <p className="text-center text-xl w-[420px] mt-4">
             Please feel free to contact me if you have any question! I'll try to
             get back to you.
           </p>
         </div>
-        <div className="flex items-center justify-center ">
+        <div className="flex items-center justify-center mt-6 ">
           <a
             href="https://www.linkedin.com/in/ramisa-binte-azad/"
             target="blank"
@@ -64,11 +66,43 @@ const Contact = () => {
           </a>
 
           <a href="https://mail.google.com/mail/" target="blank">
-            <label className="flex  items-center  text-white    text-sm ">
-              <img src={gmail} alt="" />
-              <span className="ml-2 font-light">tasnimlamia52@gmail.com</span>
-            </label>
+            <div className="dropdown dropdown-hover ">
+              <label
+                tabIndex={0}
+                className="flex  items-center  text-white    text-sm "
+              >
+                <img src={gmail} alt="" />
+              </label>
+
+              <ul
+                tabIndex={0}
+                className="dropdown-content menu  shadow bg-sky-700 rounded-box w-52"
+              >
+                <li>
+                  <span className="text-white  font-light">
+                    tasnimlamia52@gmail.com
+                  </span>
+                </li>
+              </ul>
+            </div>
           </a>
+          <div className="dropdown dropdown-hover ">
+            <label
+              tabIndex={0}
+              className="flex  items-center  text-white    text-sm "
+            >
+              <FaPhoneAlt className="text-2xl ml-3 text-cyan-200"></FaPhoneAlt>
+            </label>
+
+            <ul
+              tabIndex={0}
+              className="dropdown-content menu shadow bg-gray-300  rounded-box w-44"
+            >
+              <li>
+                <span className="text-black  font-light">+8801521515852</span>
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div className="hero-content flex-col lg:flex-row">
@@ -130,6 +164,7 @@ const Contact = () => {
                       value="Send"
                     >
                       Submit
+                      <FaPaperPlane className="pl-2 text-2xl"></FaPaperPlane>
                     </button>
                   </div>
                 </div>

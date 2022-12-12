@@ -32,24 +32,29 @@ const Navbar = () => {
               <Link>Home</Link>
             </li>
             <li tabIndex={0}>
-              <Link>About</Link>
+              <a href="#about">About</a>
             </li>
+
             <li>
-              <Link>Skills</Link>
-            </li>
-            <li>
-              <Link>Projects</Link>
+              <a href="#projects">Projects</a>
             </li>
             <li>
               <Link>Education</Link>
             </li>
+            <li>
+              <Link>Blogs</Link>
+            </li>
             <li className="">
-              <Link>Contact Me</Link>
+              <a href="#contact">Contact Me</a>
             </li>
           </ul>
         </div>
         <Link className="lg:flex md:flex   items-center normal-case lg:text-4xl pl-3 text-white text-2xl font-change  ">
-          <img src={logo} className="w-14 h-12 mr-2 lg:block md:block hidden " alt="" />
+          <img
+            src={logo}
+            className="w-14 h-12 mr-2 lg:block md:block hidden "
+            alt=""
+          />
           <span className="text-sky-300 lg:text-5xl text-3xl ">R</span>
           amisaBinteAzad
         </Link>
@@ -62,16 +67,17 @@ const Navbar = () => {
             </Link>
           </li>
           <li tabIndex={0}>
-            <Link to="">About</Link>
+            <a href="#about">About Me</a>
           </li>
-          <li>
-            <Link>Skills</Link>
-          </li>
+
           <li>
             <a href="#projects">Projects</a>
           </li>
           <li>
             <Link>Education</Link>
+          </li>
+          <li>
+            <Link to='/blogs'>Blogs</Link>
           </li>
           <li>
             <a href="#contact">Contact Me</a>

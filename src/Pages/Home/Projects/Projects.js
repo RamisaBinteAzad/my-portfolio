@@ -16,8 +16,9 @@ const Projects = () => {
       <div className="">
         <div>
           <div className="px-4 lg:w-1/2">
-            <p className="text-primary text-4xl font-semibold ">
+            <p className="text-primary text-4xl font-semibold mt-12">
               MY <span className="text-gray-400 ml-3">PROJECTS</span>
+              <hr className="w-20 border-4 border-primary" />
             </p>
             <p className="text-white font-semibold text-5xl mt-2 tracking-wide">
               Some Things I Built
@@ -62,14 +63,39 @@ const Projects = () => {
                     reviews.All Users can see the latest Reviews.
                   </p>
                   <div className="flex items-center mt-5 ">
-                    <img src={bootstrap} className="h-7 mr-3" alt="" />
-                    <img src={css} className="h-7 mr-3" alt="" />
-                    <img src={react} className="h-6 mr-3" alt="" />
-                    <img src={nodejs} className="w-7 h-7 mr-3" alt="" />
-                    <img src={expressjs} className="w-7 h-7 mr-3" alt="" />
-                    <img src={mongoDB} className="w-7 h-8" alt="" />
+                    <img
+                      src={bootstrap}
+                      title="BOOTSTRAP"
+                      className="h-7 mr-3"
+                      alt=""
+                    />
+                    <img src={css} title="CSS" className="h-7 mr-3" alt="" />
+                    <img
+                      src={react}
+                      title="REACT"
+                      className="h-6 mr-3"
+                      alt=""
+                    />
+                    <img
+                      src={nodejs}
+                      title="NODEJS"
+                      className="w-7 h-7 mr-3"
+                      alt=""
+                    />
+                    <img
+                      src={expressjs}
+                      title="EXPRESSJS"
+                      className="w-7 h-7 mr-3"
+                      alt=""
+                    />
+                    <img
+                      src={mongoDB}
+                      title="MONGODB"
+                      className="w-7 h-8"
+                      alt=""
+                    />
                   </div>
-                  <Link className="mt-5 btn bg-sky-600 border-0 text-white font-thin">
+                  <Link className="mt-5 btn bg-sky-600 hover:bg-slate-600 border-0 text-white font-thin">
                     Explore More
                   </Link>
                 </div>
@@ -102,13 +128,33 @@ const Projects = () => {
                     and Firebase Authentication in three different ways.
                   </p>
                   <div className="flex items-center mt-5 ">
-                    <img src={bootstrap} className="h-7 mr-3" alt="" />
-                    <img src={css} className="h-7 mr-3" alt="" />
-                    <img src={react} className="h-6 mr-3" alt="" />
-                    <img src={nodejs} className="w-7 h-7 mr-3" alt="" />
-                    <img src={expressjs} className="w-7 h-7 mr-3" alt="" />
+                    <img
+                      src={bootstrap}
+                      title="BOOTSTRAP"
+                      className="h-7 mr-3"
+                      alt=""
+                    />
+                    <img src={css} title="CSS" className="h-7 mr-3" alt="" />
+                    <img
+                      src={react}
+                      title="REACT"
+                      className="h-6 mr-3"
+                      alt=""
+                    />
+                    <img
+                      src={nodejs}
+                      title="NODEJS"
+                      className="w-7 h-7 mr-3"
+                      alt=""
+                    />
+                    <img
+                      src={expressjs}
+                      title="EXPRESSJS"
+                      className="w-7 h-7 mr-3"
+                      alt=""
+                    />
                   </div>
-                  <Link className="mt-5 btn bg-sky-600 border-0 text-white font-thin">
+                  <Link className="mt-5 btn bg-sky-600 hover:bg-slate-600 border-0 text-white font-thin">
                     Explore More
                   </Link>
                 </div>
@@ -150,17 +196,27 @@ const Projects = () => {
                   </small>
                   <p className="mt-8 tracking-normal text-lg">
                     This is a responsive website where learners can practice
-                    quiz of different categories about Web Development.Learners can
-                    easily judge his ability and can understand whether his
+                    quiz of different categories about Web Development.Learners
+                    can easily judge his ability and can understand whether his
                     answer is right or wrong and get the correct answer.For Quiz
                     Analytics there is a graph in the statistics section
                   </p>
                   <div className="flex items-center mt-5 ">
-                    <img src={bootstrap} className="h-7 mr-3" alt="" />
-                    <img src={css} className="h-7 mr-3" alt="" />
-                    <img src={react} className="h-6 mr-3" alt="" />
+                    <img
+                      src={bootstrap}
+                      title="BOOTSTRAP"
+                      className="h-7 mr-3"
+                      alt=""
+                    />
+                    <img src={css} title="CSS" className="h-7 mr-3" alt="" />
+                    <img
+                      src={react}
+                      title="REACT"
+                      className="h-6 mr-3"
+                      alt=""
+                    />
                   </div>
-                  <Link className="mt-5 btn bg-sky-600 border-0 text-white font-thin">
+                  <Link className="mt-5 btn bg-sky-600 hover:bg-slate-600 border-0 text-white font-thin">
                     Explore More
                   </Link>
                 </div>
